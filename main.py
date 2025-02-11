@@ -16,7 +16,7 @@ def main():
     )
 
     args = parser.parse_args()
-    result = args.a + args.b + 1
+    result = args.a + args.b + 2
     print(f"The sum of {args.a} and {args.b} is {result}")
 
 
